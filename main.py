@@ -9,7 +9,7 @@ class Application(object):
     def __init__(self):
         super().__init__()
         self.port = 12345
-        self.address = '192.168.178.111'
+        self.address = 'ip'
         self.socket = None
         self.connected = False
         self.connect()
